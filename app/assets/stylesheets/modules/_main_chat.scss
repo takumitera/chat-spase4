@@ -34,18 +34,12 @@
     height: 40px;
     width:72px;
     line-height:40px;
+    color:#38aef0;
     border: 1px solid #38aef0;
     margin-top:28px;
     padding:0 20px;
     cursor: pointer;
     
-    &__btn{
-      font-size:16px;
-      color:#38aef0;
-      text-align: center;
-      position: absolute;
-      text-decoration:none;
-   }
   }
  }
 
@@ -87,25 +81,25 @@
     display: flex;
     width:100%;
  
-    .form__box__message{
+    &__message{
       height:50px;
       width:100%;
       position: relative;
       background-color:white;
 
-     .form__box__message__text{
+     &__text{
        padding:0px 40px 0px 10px;
        height:50px;
        width:100%;
      }
 
-     .form__box__message__image{
+     &__image{
       position:absolute;
       cursor: pointer;
       top: 15px;
       right: 10px;
 
-     .form__box__message__image__point{
+     &__point{
       display:none;
      }
     }
