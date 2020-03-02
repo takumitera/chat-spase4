@@ -58,3 +58,4 @@ gem 'font-awesome-sass'
 gem "font-awesome-rails"
 gem 'devise'
 gem 'rails-i18n', '~> 5.0' 
+gem 'pry-rails'
