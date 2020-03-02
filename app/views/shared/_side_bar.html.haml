@@ -5,8 +5,8 @@
     = current_user.name
    %ul.side-box__lists
     %li.list
-     = link_to "#", class: "side-box__btn" do
-      = icon('fa', 'edit')
+     = link_to new_group_path do
+      = icon('fa', 'edit',class: "side-box__btn")
     %li.list
      = link_to edit_user_path(current_user) do
       = icon('fa', 'cog', class: "side-box__btn")
